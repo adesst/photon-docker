@@ -1,8 +1,8 @@
 # Photon Docker
 
-Run [https://github.com/komoot/photon](https://github.com/komoot/photon) 0.2.2 in a docker container.
+Run [https://github.com/komoot/photon/releases/download/0.3.4/photon-0.3.4.jar](https://github.com/komoot/photon/releases/download/0.3.4/photon-0.3.4.jar) 0.3.4 in a docker container.
 
-Uses phusion/baseimage (Ubuntu 14.04). Requires a running nominatim for data import. It is built to work together with https://registry.hub.docker.com/u/helvalius/nominatim-docker-development/ . The embedded ES database is not exposed as volumes and thus data is removed if container is removed.
+Uses openjdk:8-jdk-alpine. Requires a running nominatim for data import. It is built to work together with https://registry.hub.docker.com/u/helvalius/nominatim-docker-development/ . The embedded ES database is not exposed as volumes and thus data is removed if container is removed.
 
 
 # Building
